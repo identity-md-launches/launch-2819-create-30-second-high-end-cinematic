@@ -1,0 +1,31 @@
+{
+  "model": "bytedance/seedance-1-pro-fast",
+  "settings": {"resolution": "1080p", "aspect_ratio": "16:9", "camera_fixed": false},
+  "shots": [
+    {
+      "file": "s1.mp4", "used": "scene 1, 0-5 s", "prediction": "a8bxpprtpxrmy0d1jv8839dvkg", "duration": 5, "seed": 4242,
+      "prompt": "Cinematic close-up over the shoulder of a young creator in a dark futuristic room, navy and black glossy surfaces, his face lit cold blue by a large curved monitor showing an endless grid of identical blurry promotional video thumbnails scrolling upward. He scrolls, bored. At the midpoint the monitor glitches violently with RGB digital distortion and scanlines, then the screen bursts into a glowing electric lime-green swirling vortex portal, flooding his face and the room with green light. Slow dolly push-in toward the screen. Anamorphic lens, shallow depth of field, film grain, premium commercial cinematography. No readable text, no logos, no coins."
+    },
+    {
+      "file": "s2.mp4", "used": "scene 2, 0-7 s", "prediction": "k6ck05cndxrmy0d1jv7a0tahw4", "duration": 7, "seed": 518018014,
+      "prompt": "Cinematic premium commercial shot. The camera flies forward smoothly through a glowing electric lime-green circular portal of light into a vast futuristic digital world of deep navy and black space, with floating glossy black and chrome metallic geometric shapes, glass prisms and abstract digital crystals drifting around a bright empty center, streams of lime-green energy particles swirling. Camera decelerates and settles on the empty glowing center. Volumetric light, anamorphic lens flares, reflective surfaces, high-end studio CGI. No text, no letters, no logos, no coins, no cryptocurrency symbols."
+    },
+    {
+      "file": "s3a.mp4", "used": "scene 3, 0-3.4 s", "prediction": "qc8zbys8q1rmw0d1jv88r3av0g", "duration": 9, "seed": 1909718363,
+      "prompt": "Cinematic premium commercial shot, dark navy and black futuristic environment with glossy reflective floor and haze. Close-up of a young creator's hand holding a sleek black smartphone and tapping a glowing button; a bright electric lime-green beam of light streaks out of the phone. The camera follows the light as it pulls back and rises into a wide aerial shot: the beam splits into hundreds of glowing lime-green lines connecting tiny glowing figures across a vast dark digital grid city, a spreading network of light, all streams flowing toward a colossal polished chrome trophy at the center that lights up green, glowing brighter with each connection. Smooth crane camera move, volumetric light, anamorphic flares, high-end CGI. No readable text, no logos, no coins."
+    },
+    {
+      "file": "s3b.mp4", "used": "scene 3, 3.2-8.8 s", "prediction": "dt33rfx3enrmr0d1jv7abmw4jc", "duration": 9, "seed": 1511177503,
+      "prompt": "Cinematic premium commercial shot in a dark navy and black futuristic space. A young digital creator holds up a smartphone and taps share; a thin glowing electric lime-green line of light shoots out of the phone and branches toward other young creators standing in the darkness, each lighting up as they receive it. The lines multiply into a vast glowing lime-green network of connections spreading across a futuristic digital grid, all converging on a massive polished chrome metallic trophy in the distance that lights up with green reflections. Smooth sweeping camera move, volumetric light, glossy reflections, high-end studio production. No readable text, no logos, no coins."
+    },
+    {
+      "file": "s4.mp4", "used": "scene 4, 0-6 s, and blurred end-card background (3-6 s)", "prediction": "xf4w05a1yhrmr0d1jv8t39rv6r", "duration": 6, "seed": 1219195450,
+      "prompt": "Wide luxury product commercial shot. A sleek modern polished chrome trophy with clean minimal curves, plain smooth surface, rises slowly out of a dark mirror-like reflective black floor in the lower half of the frame, the trophy small in frame occupying only the bottom half, with a large empty dark navy space above it. The camera slowly orbits around it at a low angle. When fully risen, a burst of electric lime-green light explodes outward across the dark floor and haze, green rim light on the chrome, green reflections. Minimal clean dark environment, nothing else in the scene. Anamorphic flares, high-end studio CGI. No text, no letters, no emblems, no logos, no coins."
+    }
+  ],
+  "audio": {
+    "voiceover": {"model": "minimax/speech-02-hd", "voice_id": "English_Deep-VoicedGentleman", "files": ["vo1.mp3", "vo2.mp3", "vo3.mp3", "vo4.mp3", "vo5.mp3"], "placement_s": [0.4, 6.0, 12.6, 21.4, 26.15]},
+    "music": {"model": "google/lyria-2", "prediction": "4th5aq19phrmw0d1jv7vect38c", "seed": 1119719254, "file": "music.wav",
+      "prompt": "Energetic cinematic electronic trailer music for a premium tech commercial, 120 BPM, dark pulsing synth bass, rising tension intro, driving hybrid orchestral percussion, sleek futuristic synth arpeggios, big uplifting drop around the middle, confident and luxurious, instrumental, no vocals"}
+  }
+}
